@@ -1,0 +1,191 @@
+@charset "utf-8";
+/*----------------------------------------------------------------
+    Branding Colour
+----------------------------------------------------------------*/
+p, ul li {
+    color:#000;
+    font-weight: 400;}
+h3, h4 {
+    color: #000;
+    font-weight: 700;}
+h3, h2, #banner1 h1, #banner1 p, .formbuilder-form .row label, .formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    text-transform: uppercase;}
+/*----------------------------------------------------------------
+    Buttons
+----------------------------------------------------------------*/
+.btn{
+    border: 1px solid #fff;
+    background-color: #000;
+    color: #fff;
+    transition: 0.2s 0.2s ease-out;
+}
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn {
+    border: 2px solid #fff;
+    background: #fff;
+    color: #000;
+    transform: scale(1.1);
+}
+#tb,#eb{ 
+    text-shadow: none;
+    width: 35%;
+    font-size: 20px;
+    padding: 13px 5px 13px 5px; 
+ }
+#header2, #header2a a , #header2b a, .btn ,input#submit-form, #submit-form, .btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn, .formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form,footer a {text-decoration: none;}
+/*----------------------------------------------------------------
+    Forms
+----------------------------------------------------------------*/
+ .form, #contact_form_form, #quote_form_form, #extraFormsContainer .modal-dialog{
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.17);
+}
+.formbuilder-form .row label, div.formbuilder-wrapper label {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 8px;
+}
+.formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form{
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+}
+.formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:active, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn {
+    background: #000;
+    color: #fff;
+}
+.formbuilder-form .row input, .formbuilder-form .row select, .formbuilder-form .row textarea {
+    border: 1px solid #d9d7d7;
+}
+/*----------------------------------------------------------------
+    Header
+----------------------------------------------------------------*/
+header {
+    padding: 0px 0 0px 0;}
+ header a, header span, #header2a a, #header2a:before, #header2a, #header2b a,#services p  {
+    color: #000;}
+#header2a a {
+    font-size: 44px;
+    line-height: 48px;}
+#header2b a {
+    font-size: 19px;}
+#header1 p {
+    padding-top: 20px;
+    line-height: 0px;}
+#header2 {
+    padding-bottom: 7px;}
+/*----------------------------------------------------------------
+    Banner 
+----------------------------------------------------------------*/
+#banner1 h1, #banner1 p {
+    color: #fff;}
+#banner1 h1 {
+    font-weight: 700;
+    font-size: 55px;}
+.banner_cover {
+    opacity: 0.6;
+    background-color: #000}
+#banner{
+    margin:0;}
+#banner1 {
+    animation:move 2s ease;}
+@-webkit-keyframes move {
+  from {transform: scale(0.8);opacity:0;}
+  to {transform: scale(1.0);opacity:1;}
+}
+
+/*----------------------------------------------------------------
+    Services & Content
+----------------------------------------------------------------*/
+#gallery {
+    border-top:5px solid #fff;
+    border-bottom:5px solid #fff;}
+#services p, #services h3{
+    color: #fff;}
+#services h3:hover{
+    transform: scale(1.0);}
+#service1,#service2,#service3,#service4{
+    transition: 0.2s 0.2s ease-out;}
+#service1:hover,#service2:hover,#service3:hover,#service4:hover{
+    transform: scale(1.2);}
+#services {
+    padding: 60px 0 45px;}
+
+#content2{
+    display: none;}
+#content1 {
+    width: 100%;}
+/*----------------------------------------------------------------
+    Image
+----------------------------------------------------------------*/
+#content2b .img-responsive, #contact2a .img-responsive {
+    transition: .5s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    border: 5px outset #fff;}
+#content1 .img-responsive{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    border: 10px outset #fff;}
+#content2b .img-responsive:hover, #contact2a .img-responsive:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    border: 10px outset #fff;}
+/*----------------------------------------------------------------
+    Gallery
+----------------------------------------------------------------*/
+#gallery {
+    transition: 0.2s 0.2s ease-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+#gallery:hover {
+  opacity: 0.5;
+}
+/*----------------------------------------------------------------
+    Contact
+----------------------------------------------------------------*/
+#contact2f, #contact p, #contact h3, .contact_detail a, .contact_detail a:hover, .contact_detail a:focus {
+    text-decoration: none;color: #fff;}
+#contact2b, #contact2c, #contact2d, #contact2e, #contact1b{
+    display: none;} 
+/*----------------------------------------------------------------
+    Footer
+----------------------------------------------------------------*/
+footer *, footer a  {color: #000;}
+footer a {font-weight: 500;}
+footer {
+    background-color: #fff;
+    border-top: 5px solid #000;
+    color: #000;}
+/*----------------------------------------------------------------
+    Media Queries
+----------------------------------------------------------------*/
+@media only screen and (max-width: 690px) {
+    #banner h1 {font-size: 50px;}}
+@media only screen and (max-width: 767px) and (min-width: 0px)  {
+    #header {
+        padding: 10px 0 0px 0;}
+    #header1 {
+        padding-top: 0px;}
+    #header1 p, #header2 {
+        padding-top: 10px;}
+    #header2b {
+        line-height: 40px;}
+    #services {
+        padding: 80px 0 60px 0;}
+    #service1:hover,#service2:hover,#service3:hover,#service4:hover{
+        transform: scale(1.05);}
+    #header2a {
+        line-height: 15px;
+        padding-top: 4px;
+    }
+}
+@media (max-width: 767px) {#service3 {clear:left }}
+@media (max-width: 710px) {
+    #tb,#eb{
+        width:100%;
+        word-wrap: break-word;}}
+@media (min-width: 0px) {
+    #tb, #eb {
+        margin-top: 10px;}}
